@@ -17,6 +17,9 @@ void Tienda::inicializarProductos() {
     crearProducto(4, "Monitor", 350.75, 15);
     crearProducto(5, "Webcam", 89.99, 20);
     crearProducto(6, "Tablet digitalizadora", 75.99, 5);
+    crearProducto(7, "Impresora", 199.99, 8);
+    crearProducto(8, "Auriculares", 49.99, 25);
+    crearProducto(9, "Silla gamer", 299.99, 12);
 }
 
 void Tienda::crearProducto(int id, const std::string& nombre, double precio, int cantidad) {
